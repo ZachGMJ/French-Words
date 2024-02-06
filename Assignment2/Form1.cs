@@ -1,0 +1,55 @@
+namespace Assignment2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.Aquamarine;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+            label2.Text = "trios";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+            label2.Text = "deux";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+            label2.Text = "un";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+            label2.Text = "quatre";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label2.Visible = true;
+            label2.Text = "cinq";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
